@@ -1,0 +1,291 @@
+.logoP {
+   
+  width: 100px;
+  
+}
+.heade_section h1 {
+  font-size: 3.5rem;
+  opacity: .7;
+  margin: 110px 0 25px 0;
+
+}
+
+.heade_section p {
+  font-size: 1.3rem;
+  opacity: .7;
+  margin: 15px 0 50px 0;
+}
+
+/* .heade_section img  {
+  width: 450px;
+  height: 300px;
+  padding: 3.5px;
+  border: 1px solid blue;
+  border-radius: 80%;
+
+} */
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+gap: 200px;
+}
+
+.image-row img:first-child {
+  width: 350px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+}
+
+.hero-section {
+
+display: flex; 
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 30px;
+
+}
+
+.hero-section div{
+
+  padding: 120px 0 200px 0!important;
+
+}
+.hero-section div h2 {
+  font-size: 3rem;
+  margin: 20px 0 ;
+}
+.social-link {
+  color: #fff;
+  background-color: #3b5998;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: #2d4373;
+}
+
+.hero-section div p{
+
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: justify;
+  
+}
+.interests-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.interest-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  margin-bottom: 20px;
+}
+
+.card-link {
+  color: #007bff;
+}
+
+.contact_us{
+  width: 100%;
+  background-color: antiquewhite;
+ 
+}
+
+.contact_us form{
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer{
+  background-color: rgba(128, 115, 115, 0.229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.footer img {
+  margin-top: 15px;
+  width: 250px;
+  height: 100px;
+}
+.footer h3{
+  
+  margin-top: 15px;
+}
+
+.footer .social_icons{
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.footer .social_icons a{
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(0,0,0, .1);
+  border-radius: 50%;
+  place-items: center;
+  display: grid;
+  text-decoration: none;
+  transition-duration: 100ms;margin: 0 10px;
+
+
+}
+.footer .social_icons a:hover{
+  transform: scale(1.1);
+  background-color: #fff;
+
+}
+nav {
+  position: sticky!important;
+  top: 0;
+  background-color: #fff rgb255,255,255,0.550;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+}
+
+
+@media (max-width: 768px){
+  .contact_us form{
+      width: 90%;
+  }
+}
+
+
+/* Styles for the sign-up form */
+.modal-content form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.modal-content h5 {
+  text-align: center;
+}
+
+.modal-content .form-group {
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-content button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the sign-up form */
+.modal-content form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.modal-content h5 {
+  text-align: center;
+}
+
+.modal-content .form-group {
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-content .form-check {
+  margin-bottom: 10px;
+}
+
+.modal-content .form-check label {
+  margin-left: 5px;
+}
+
+.modal-content button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.social_icons {
+  margin-top: 20px;
+}
+
+.social_icons a {
+  color: #609e78;
+  margin-right: 10px;
+  font-size: 20px;
+}
